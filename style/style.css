@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.home {
+    min-height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* header = nav */
+
+.home .header {
+    position: fixed;
+    width: 100%;
+    background-color: #FFFFFF;
+    z-index: 20;
+}
+
+.home .header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.home .header nav .logo {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.home .header nav .logo i {
+    font-size: 44px;
+    color: #005189;
+}
+
+.home .header nav .logo h1 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #005189;
+}
+
+.home .header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.home .header nav ul li {
+    list-style: none;
+}
+
+.home .header nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #005189;
+}
+
+.home .header nav .menu {
+    display: none;
+}
+
+.home .header nav .menu i {
+    font-size: 28px;
+    color: #005189;
+    font-weight: 500;
+}
+
+
+/* home content */
+
+.home .home-content {
+    min-height: 100vh;
+    position: relative;
+}
+
+.home .home-content::before {
+    content: '';
+    background-color: #005189;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    width: 50%;
+}
+
+.home .home-content .content {
+    padding: 280px 0 0;
+    position: relative;
+    animation-duration: 3s;
+    animation-name: home-content
+}
+
+.home .home-content .content h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    line-height: 53px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.home .home-content .content p {
+    color: #FFFFFF;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+/* SPHERES WORKS  */
+
+.spher {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.spher .work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.spher .work .left {
+    font-size: 38px;
+    color: #005189;
+}
+
+.spher .work .right {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.spher .work .right .left-work .item1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.spher .work .right .left-work .item1 .item-work h1 {
+    color: #005189;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.spher .work .right .left-work .item1 i {
+    color: #005189;
+}
+
+.spher .work .right .left-work .item1 .item-work p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.spher .work .right .right-work .right-item1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.spher .work .right .right-work .right-item1 .right-con h1 {
+    color: #005189;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.spher .work .right .right-work .right-item1 i {
+    color: #005189;
+}
+
+.spher .work .right .right-work .right-item1 .right-con p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}

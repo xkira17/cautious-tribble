@@ -1,0 +1,106 @@
+@media screen and (max-width: 1024px) {
+    .home .header .container {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .home .header .container ul {
+        display: none;
+    }
+
+    .home .header .container .menu {
+        display: flex;
+    }
+
+    .home .header .container .logo i {
+        font-size: 34px;
+    }
+
+    .home .header .container .logo h1 {
+        font-size: 24px;
+    }
+
+    .home .home-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home .home-content::before {
+        margin: auto;
+        width: 90%;
+        top: 15%;
+        bottom: 10px;
+    }
+
+    /* spher */
+
+    .spher .container {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .spher .container .work {
+        display: grid;
+    }
+
+    .spher .container .work .left {
+        text-align: center;
+    }
+
+    .spher .container .work .right {
+        display: grid;
+        gap: 0;
+    }
+
+    .spher .container .work .right .left-work {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .spher .container .work .right .right-work {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 723px){
+    .spher .container .work .right {
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .spher .container .work .right .left-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+
+    .spher .container .work .right .right-work {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .home .home-content .content {
+        padding: 230px 0 0 0;
+    }
+
+    .home .home-content .content h1 {
+        font-size: 43px;
+        width: 100%;
+        line-height: 45px;
+    }
+
+    .home .home-content .content p {
+        font-size: 14px;
+    }
+}
