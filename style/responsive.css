@@ -64,6 +64,21 @@
         justify-content: space-between;
         gap: 50px;
     }
+
+
+    /* .lawyers */
+
+    .lawyers .container {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .lawyers .low .low-card {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
+    .lawyers .low .low-card .card1 {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 723px){
@@ -87,6 +102,13 @@
         justify-content: space-between;
     }
 
+
+    /* lawyers */
+
+    /* .lawyers .low .low-card {
+        display: grid;
+        grid-template-columns:1fr;
+    } */
 }
 
 @media screen and (max-width: 450px) {
