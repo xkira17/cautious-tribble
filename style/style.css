@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -31,6 +32,7 @@
     width: 100%;
     background-color: #FFFFFF;
     z-index: 20;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
 }
 
 .home .header nav {
@@ -107,7 +109,7 @@
     padding: 280px 0 0;
     position: relative;
     animation-duration: 3s;
-    animation-name: home-content
+    animation-name: home-content;
 }
 
 .home .home-content .content h1 {
@@ -137,6 +139,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 150px 0;
+    animation-name: work;
+    animation-duration: 3s;
 }
 
 .spher .work .left {
@@ -194,4 +198,102 @@
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+}
+
+
+/* about us */
+
+.about {
+    min-height: 100vh;
+    background-color: #005189;
+    color: #FFFFFF;
+}
+
+.about .about-us {
+    text-align: center;
+    padding: 170px 0 0 0;
+    animation-name: about-us;
+    animation-duration: 3s;
+}
+
+.about .about-us h1 {
+    font-size: 54px;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+
+.about .about-us p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+
+/* work = bg = jpg */
+
+.work-time {
+    min-height: 100vh;
+    background-image: url(../img/work.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+}
+
+
+/* lawyers */
+
+.lawyers {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.lawyers .low {
+    padding: 130px 0;
+    animation-name: lawyers;
+    animation-duration: 3s
+}
+
+.lawyers .low .low-h1 h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    color: #005189;
+}
+
+.lawyers .low .low-card {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.lawyers .low .low-card .card1 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.lawyers .low .low-card .card1 img {
+    padding-bottom: 20px;
+}
+
+.lawyers .low .low-card .card1 h1 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: #005189;
+}
+
+.lawyers .low .low-card .card1 p {
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.lawyers .low .low-card .card1 .border {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(156, 156, 156);
+    margin-bottom: 20px;
 }

@@ -1,4 +1,45 @@
+/* home */
+
 @keyframes home-content {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* work */
+
+@keyframes work {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* abou us */
+
+@keyframes about-us {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* lawyers */
+
+@keyframes lawyers {
     from {
         opacity: 0;
     }
