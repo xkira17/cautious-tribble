@@ -72,16 +72,18 @@
         width: 100%;
         padding: 0 40px;
     }
+
     .lawyers .low .low-card {
         display: grid;
         grid-template-columns: 2fr;
     }
+
     .lawyers .low .low-card .card1 {
         margin-top: 30px;
     }
 }
 
-@media screen and (max-width: 723px){
+@media screen and (max-width: 723px) {
     .spher .container .work .right {
         flex-direction: column;
         display: grid;
