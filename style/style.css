@@ -211,7 +211,7 @@
 
 .about .about-us {
     text-align: center;
-    padding: 170px 0 0 0;
+    padding: 150px 0;
     animation-name: about-us;
     animation-duration: 3s;
 }
